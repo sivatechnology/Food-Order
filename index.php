@@ -13,7 +13,11 @@
 </head>
 <body>
 <div class="header">
+<div class="row">
+    <div class="col-md-4 col-lg-2">
 
+    </div>
+</div>
 </div>
 </body>
 </html>
