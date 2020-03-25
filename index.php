@@ -12,6 +12,6 @@
     <title>Online Food Order Management System</title>
 </head>
 <body>
-
+<div class="header"></div>
 </body>
 </html>
