@@ -1,0 +1,16 @@
+.container{
+    background: url("/Admin/Images/admin-bg.jpg");
+    background-size: 100%;
+
+}
+fieldset{
+    align-content: center;
+}
+legend{
+    shape:circle;
+    text-align: center;
+}
+input button{
+    background-color: black;
+    text-decoration-color: white;
+}

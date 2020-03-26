@@ -18,6 +18,20 @@
     <div class="login-content">
         <div class="container">
             <div class="row">
+                <div class="col-sm-6">
+
+                </div>
+                <div class="col-sm-6" style="align-content: center">
+                        <fieldset>
+                        <legend></legend>
+                        <p>Admin</p>
+                        <input type="text" placeholder="Username" style="border-color:white "/>
+                        <br><br>
+                        <input type="password" placeholder="Password"  style="border-color:white "/>
+                        <br><br>
+                        <input type="button" value="Login"/>
+                    </fieldset>
+                </div>
 
             </div>
         </div>
