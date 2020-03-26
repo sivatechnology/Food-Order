@@ -14,6 +14,15 @@
     <title>Admin</title>
 </head>
 <body>
+<div class="admin-login-content">
+    <div class="login-content">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
