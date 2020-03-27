@@ -28,9 +28,9 @@
 
                                 <div class="form-section">
                                     <form>
-                                        <input class="form-control admin-username" placeholder="Username" type="text">
-                                        <input class="form-control admin-password" placeholder="Password" type="password">
-                                        <input class="form-control admin-submit" type="submit" value="Submit">
+                                        <input class="form-control admin-username" name="username" placeholder="Username" type="text">
+                                        <input class="form-control admin-password" name="password" placeholder="Password" type="password">
+                                        <input class="form-control admin-submit" name="submit" type="submit" value="Submit">
                                     </form>
                                 </div>
                             </div>
