@@ -1,6 +1,64 @@
 *{
     font-family:Poppins;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 input{
     font-family: Poppins;
 }
+.admin-avatar{
+    width: 150px;
+}
+.admin-header{
+    background: url("../img/admin-bg.jpg");
+}
+html,body{
+    height:100%
+    }
+.admin-header{
+    height: 100%;
+}
+.admin-login {
+    top: 30vh;
+    position: relative;
+}
+.admin-username , .admin-password{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 5px;
+    color: black;
+    margin: 20px 0;
+    outline: 0;
+    border-radius: 50px;
+}
+.admin-username::placeholder , .admin-password::placeholder{
+    color: white;
+    padding: 5px;
+
+}
+.admin-username:active , .admin-password:active,
+.admin-username:focus , .admin-password:focus{
+    background: transparent;
+    color: white;
+}
+.admin-submit{
+    background: black;
+    color: white;
+    padding: 10px 5px;
+    border: none !important;
+    border-radius: 50px;
+}
+.admin-submit:active{
+    background: transparent;
+    color: white;
+}
+.admin-submit:hover{
+    background: #353438;
+    color: white;
+}
+
