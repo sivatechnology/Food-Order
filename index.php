@@ -12,14 +12,5 @@
     <title>Online Food Order Management System</title>
 </head>
 <body>
-<div class="header">
-<div class="row">
-    <div class="col-md-4 col-lg-2">
-<h2>
-    online food order
-</h2>
-    </div>
-</div>
-</div>
 </body>
 </html>
