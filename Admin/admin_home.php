@@ -13,6 +13,9 @@
     <title>Admin Home Page</title>
 
     <style>
+        .main-header{
+            font-size: 18px;
+        }
         .normal-header{
             font-size: 16px;
         }
