@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-sm-3 container">
                         <div class="img-con ">
-                            <img class="img-fluid" height="auto" src="../img/pizza.jpg" alt="Image not Found">
+                            <img class="img-fluid" height="auto" src="../img/Pizza.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
