@@ -131,8 +131,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con">
+                            <img class="img-fluid" height="auto" src="../img/lollipop.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
@@ -149,14 +149,14 @@
                         </div>
                     </div>
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con ">
+                            <img class="img-fluid" height="auto" src="../img/veg-wrap.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
+                                        <p class="normal-header"><b>Veg Wrap</b></p>
                                         <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p>$ 4.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
@@ -167,14 +167,14 @@
                         </div>
                     </div>
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con ">
+                            <img class="img-fluid" height="auto" src="../img/pizza.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
-                                        <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p class="normal-header"><b>Pizza</b></p>
+                                        <p class="content">Main Course</p>
+                                        <p>$ 12.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
@@ -185,90 +185,14 @@
                         </div>
                     </div>
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con ">
+                            <img class="img-fluid" height="auto" src="../img/lemon-juice.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
+                                        <p class="normal-header"><b>Lemon Juice</b></p>
                                         <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
-                                    </div>
-                                    <div class="col-sm-4 container min-con-right">
-                                        <p>Rate</p>
-                                        <input class="min-container-button" type="button" value="Add"><br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><br><br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
-                            <div class="container min-container">
-                                <div class="row">
-                                    <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
-                                        <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
-                                    </div>
-                                    <div class="col-sm-4 container min-con-right">
-                                        <p>Rate</p>
-                                        <input class="min-container-button" type="button" value="Add"><br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
-                            <div class="container min-container">
-                                <div class="row">
-                                    <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
-                                        <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
-                                    </div>
-                                    <div class="col-sm-4 container min-con-right">
-                                        <p>Rate</p>
-                                        <input class="min-container-button" type="button" value="Add"><br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
-                            <div class="container min-container">
-                                <div class="row">
-                                    <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
-                                        <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
-                                    </div>
-                                    <div class="col-sm-4 container min-con-right">
-                                        <p>Rate</p>
-                                        <input class="min-container-button" type="button" value="Add"><br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
-                            <div class="container min-container">
-                                <div class="row">
-                                    <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
-                                        <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p>$ 4.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
@@ -283,14 +207,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con ">
+                            <img class="img-fluid" height="auto" src="../img/Chicken-Biryani.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
-                                        <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p class="normal-header"><b>Chicken Briyani</b></p>
+                                        <p class="content">Main Course</p>
+                                        <p>$ 15.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
@@ -301,14 +225,14 @@
                         </div>
                     </div>
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con ">
+                            <img class="img-fluid" height="auto" src="../img/fish-gravy.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
+                                        <p class="normal-header"><b>Fish Gravy</b></p>
                                         <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p>$ 8.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
@@ -319,14 +243,14 @@
                         </div>
                     </div>
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con">
+                            <img class="img-fluid" height="auto" src="../img/blueberry-cake.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
+                                        <p class="normal-header"><b>Blueberry Cake</b></p>
                                         <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p>$ 10.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
@@ -337,14 +261,90 @@
                         </div>
                     </div>
                     <div class="col-sm-3 container">
-                        <div class="container ">
-                            <img class="img-fluid" height="auto" src="../img/Chicken_Lollipop.jpg" alt="Image not Found">
+                        <div class="img-con ">
+                            <img class="img-fluid" height="auto" src="../img/chicken-gravy.jpg" alt="Image not Found">
                             <div class="container min-container">
                                 <div class="row">
                                     <div class="col-sm-8 container min-con-left">
-                                        <p class="normal-header"><b>Chicken Lollipop</b></p>
+                                        <p class="normal-header"><b>Chicken Gravy</b></p>
+                                        <p class="content">Main Course</p>
+                                        <p>$ 12.75</p>
+                                    </div>
+                                    <div class="col-sm-4 container min-con-right">
+                                        <p>Rate</p>
+                                        <input class="min-container-button" type="button" value="Add"><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 container">
+                        <div class="img-con">
+                            <img class="img-fluid" height="auto" src="../img/chicken-roll.jpg" alt="Image not Found">
+                            <div class="container min-container">
+                                <div class="row">
+                                    <div class="col-sm-8 container min-con-left">
+                                        <p class="normal-header"><b>Chicken Roll</b></p>
                                         <p class="content">Starters</p>
-                                        <p>$ 7.75</p>
+                                        <p>$ 8.75</p>
+                                    </div>
+                                    <div class="col-sm-4 container min-con-right">
+                                        <p>Rate</p>
+                                        <input class="min-container-button" type="button" value="Add"><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 container">
+                        <div class="img-con">
+                            <img class="img-fluid" height="auto" src="../img/parotta.jpg" alt="Image not Found">
+                            <div class="container min-container">
+                                <div class="row">
+                                    <div class="col-sm-8 container min-con-left">
+                                        <p class="normal-header"><b>Parotta</b></p>
+                                        <p class="content">Main Course</p>
+                                        <p>$ 6.75</p>
+                                    </div>
+                                    <div class="col-sm-4 container min-con-right">
+                                        <p>Rate</p>
+                                        <input class="min-container-button" type="button" value="Add"><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 container">
+                        <div class="img-con">
+                            <img class="img-fluid" height="auto" src="../img/pasta.jpg" alt="Image not Found">
+                            <div class="container min-container">
+                                <div class="row">
+                                    <div class="col-sm-8 container min-con-left">
+                                        <p class="normal-header"><b>Pasta</b></p>
+                                        <p class="content">Starters</p>
+                                        <p>$ 6.75</p>
+                                    </div>
+                                    <div class="col-sm-4 container min-con-right">
+                                        <p>Rate</p>
+                                        <input class="min-container-button" type="button" value="Add"><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 container">
+                        <div class="img-con">
+                            <img class="img-fluid" height="auto" src="../img/Noodles.jpg" alt="Image not Found">
+                            <div class="container min-container">
+                                <div class="row">
+                                    <div class="col-sm-8 container min-con-left">
+                                        <p class="normal-header"><b>Noodles</b></p>
+                                        <p class="content">Chinese Special</p>
+                                        <p>$ 8.75</p>
                                     </div>
                                     <div class="col-sm-4 container min-con-right">
                                         <p>Rate</p>
