@@ -1,0 +1,71 @@
+.main-header{
+    font-size: 18px;
+}
+.normal-header{
+    font-size: 16px;
+}
+.content{
+    font-size: 14px;
+}
+p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.hotel-home{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.hotel-home-top{
+    border: 1px black;
+    border-style: solid;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.hotel-home-bottom-main{
+    align-items: center;
+}
+.hotel-home-bottom{
+    padding:10px;
+    border: 3px white;
+    border-style: solid;
+}
+.hotel-home-button
+{
+    border: 1px white;
+    border-style: solid;
+    padding: 10px;
+}
+.navbtn{
+    padding: 5px;
+}
+.hotel-home-navbtn{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90px;
+}
+.min-container{
+    height: auto;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+.min-con-left{
+    text-align: left;
+    position: relative;
+}
+.min-con-right{
+    text-align: right;
+    position: relative;
+}
+.min-container-button{
+    width: 50px;
+}
