@@ -1,8 +1,9 @@
 <?php
 session_start();
-
-include("validate.php");
-
+if(isset($_SESSION['username']))
+{
+    header("location:admin_home.php");
+}
 
 
 ?>
@@ -19,9 +20,6 @@ include("validate.php");
     <title>Online Food Order Management System</title>
 </head>
 <body>
-<?php
-
-?>
     <div class="admin-header full-height">
         <div class="container">
             <div class="row text-center">
@@ -37,10 +35,12 @@ include("validate.php");
                             <div class="admin-section">
 
                                 <div class="form-section">
-                                    <form action="index.php" method="POST">
-                                        <input class="form-control admin-username" name="uname" id="user" placeholder="Username" type="text">
-                                        <input class="form-control admin-password" name="passwd" id="pass" placeholder="Password" type="password">
-                                        <input class="form-control admin-submit" name="submit" type="submit" value="Submit">
+                                    <form action="#" method="POST">
+                                        <input class="form-control admin-username" name="user" id="user" placeholder="Username" type="text" autocomplete="off">
+                                        <input class="form-control admin-username" data-toggle="password" class="form-control" type="password" style="outline:none" placeholder="Enter Password" name="pass">
+                                        <br><br>
+                                        <input type="submit" id="btn" name="submit" value="Login">
+
                                     </form>
                                 </div>
                             </div>
@@ -49,5 +49,42 @@ include("validate.php");
             </div>
         </div>
     </div>
+
+
 </body>
 </html>
+<?php
+
+if(isset($_POST['submit']))
+{
+
+    $username= $_POST['user'];
+    $password= $_POST['pass'];
+
+
+    $link=mysqli_connect("localhost","root","","project") or die($link);
+    $username =mysqli_real_escape_string($link,$username);
+    $password =mysqli_real_escape_string($link,$password);
+
+    $result=mysqli_query($link,"select * from admin where id='$username' and password='$password'") or die("failed to query database".mysqli_error($link));
+
+    if(mysqli_num_rows($result)>0)
+    {
+        session_start();
+        $_SESSION["username"] = $username;
+        if(!isset($_SESSION['username']))
+        {
+            echo "<script>alert('Invalid ID or Password. You are in admin page if you are not admin then go to employee Login.')</script>";
+        }
+        else
+        {
+            echo"<script>location.href='admin_home.php'</script>";
+        }
+    }
+    else
+    {
+        echo "<script>alert('Invalid ID or Password. You are in admin page if you are not admin then go to employee Login.')</script>";
+    }
+
+}
+?>
