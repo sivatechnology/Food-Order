@@ -12,5 +12,39 @@
     <title>Online Food Order Management System</title>
 </head>
 <body>
+<div class="min-container">
+    <div class="row">
+        <div class="col-sm-4">
+            <button class="full-width">
+                <a href="ayyangar.php"> Ayyangar</a>
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="full-width">
+                <a href="chats_bar.php"> Chats</a>
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="full-width">
+                <a href="parambriyam.php"> parambriyam</a>
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="full-width">
+                <a href="pizzahut.php"> Pizza hut</a>
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="full-width">
+                <a href="saiba.php"> Saiba</a>
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button class="full-width">
+                <a href="Admin/index.php"> Admin</a>
+            </button>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,5 +1,12 @@
 <?php
+session_start();
+
+include("validate.php");
+
+
+
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,6 +19,9 @@
     <title>Online Food Order Management System</title>
 </head>
 <body>
+<?php
+
+?>
     <div class="admin-header full-height">
         <div class="container">
             <div class="row text-center">
@@ -27,9 +37,9 @@
                             <div class="admin-section">
 
                                 <div class="form-section">
-                                    <form>
-                                        <input class="form-control admin-username" name="username" placeholder="Username" type="text">
-                                        <input class="form-control admin-password" name="password" placeholder="Password" type="password">
+                                    <form action="index.php" method="POST">
+                                        <input class="form-control admin-username" name="uname" id="user" placeholder="Username" type="text">
+                                        <input class="form-control admin-password" name="passwd" id="pass" placeholder="Password" type="password">
                                         <input class="form-control admin-submit" name="submit" type="submit" value="Submit">
                                     </form>
                                 </div>
@@ -40,3 +50,4 @@
         </div>
     </div>
 </body>
+</html>
